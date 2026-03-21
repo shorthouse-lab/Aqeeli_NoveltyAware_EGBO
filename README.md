@@ -49,13 +49,6 @@ python run_synthetic_pairwise_egbo_novelty_nehvi.py \
 - **IGD:** lower is better
 - The novelty-aware variant combines acquisition quality and novelty for candidate selection, improving coverage/diversity especially in multimodal settings.
 
-## Suggested review order
-
-1. Run the quick smoke test above.
-2. Inspect `benchmark_data_export/` for primary aggregate tables.
-3. Inspect `additional_aggregate_data/` for noise/scaling/constraints summaries.
-4. Review post-hoc scripts in `Plotting/realworld_posthoc_validation/`.
-
 ## Reproducibility
 
 Use either:
