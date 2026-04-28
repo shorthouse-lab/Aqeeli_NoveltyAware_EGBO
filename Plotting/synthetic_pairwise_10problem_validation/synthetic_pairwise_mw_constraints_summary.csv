@@ -1,0 +1,29 @@
+problem,algorithm,mean,std,n,metric,notes
+MW3,EGBO_Novelty_v1,1.9563664602448405,0.020314129884196022,10.0,hv_final,
+MW3,EGBO,1.9487628976951938,0.019407958769499137,10.0,hv_final,
+MW3,Traditional_NEHVI,1.6957526060350314,0.09201254353251576,10.0,hv_final,
+MW5,EGBO_Novelty_v1,0.9812634223201568,0.26880901512613475,10.0,hv_final,
+MW5,EGBO,0.8609837772888789,0.288231864945466,10.0,hv_final,
+MW5,Traditional_NEHVI,0.5998961907766656,0.1772410574261618,10.0,hv_final,
+MW7,EGBO_Novelty_v1,0.31714095930273756,0.07064059343544085,10.0,hv_final,
+MW7,EGBO,0.3035583033871347,0.07157567864198419,10.0,hv_final,
+MW7,Traditional_NEHVI,0.06272041284246514,0.06875236422658239,10.0,hv_final,
+Pooled,EGBO_Novelty_v1,1.0849236139559117,0.7021010866403777,30.0,hv_final,
+Pooled,EGBO,1.0377683261237358,0.7143716464360852,30.0,hv_final,
+Pooled,Traditional_NEHVI,0.7861230698847207,0.7011233786666695,30.0,hv_final,
+MW3,EGBO_Novelty_v1,0.0,0.0,10.0,max_stagnation,
+MW3,EGBO,0.0,0.0,10.0,max_stagnation,
+MW3,Traditional_NEHVI,1.3,0.6749485577105528,10.0,max_stagnation,
+MW5,EGBO_Novelty_v1,2.0,1.9436506316151003,10.0,max_stagnation,
+MW5,EGBO,3.6,3.470510689285432,10.0,max_stagnation,
+MW5,Traditional_NEHVI,3.4,0.8432740427115678,10.0,max_stagnation,
+MW7,EGBO_Novelty_v1,1.3,1.0593499054713802,10.0,max_stagnation,
+MW7,EGBO,1.8,1.1352924243950935,10.0,max_stagnation,
+MW7,Traditional_NEHVI,8.2,2.898275349237888,10.0,max_stagnation,
+Pooled,EGBO_Novelty_v1,1.1,1.493664782593009,30.0,max_stagnation,
+Pooled,EGBO,1.8,2.5243640373574188,30.0,max_stagnation,
+Pooled,Traditional_NEHVI,4.3,3.405371011231806,30.0,max_stagnation,
+Pooled,Adaptive_vs_EGBO,38.888888888888886,,,effect,% fewer stagnation batches
+Pooled,Adaptive_vs_EGBO,4.5439128026107705,,,effect,% final HV uplift
+Pooled,Adaptive_vs_qNEHVI,74.4186046511628,,,effect,% fewer stagnation batches
+Pooled,Adaptive_vs_qNEHVI,38.00938498281293,,,effect,% final HV uplift

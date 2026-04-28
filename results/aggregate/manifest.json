@@ -1,0 +1,58 @@
+{
+  "project": "Evolutionary BO Benchmarking",
+  "release": "v1.0.0-paper",
+  "generated_at_utc": "2026-03-18T00:00:00Z",
+  "description": "Canonical aggregate outputs for EGBO and EGBO_Novelty_v1 release.",
+  "artifacts": [
+    {
+      "name": "Algorithm comparison",
+      "path": "benchmark_data_export/algorithm_comparison.csv",
+      "generated_by": "complete_analysis_pipeline.py",
+      "source_inputs": ["benchmark run CSV folders"],
+      "run_id": "paper_release",
+      "date": "2026-03-18",
+      "sha256": "REPLACE_ME",
+      "notes": "Per-problem per-algorithm comparison table."
+    },
+    {
+      "name": "HV convergence all runs",
+      "path": "benchmark_data_export/hv_convergence_all_runs.csv",
+      "generated_by": "complete_analysis_pipeline.py",
+      "source_inputs": ["benchmark run CSV folders"],
+      "run_id": "paper_release",
+      "date": "2026-03-18",
+      "sha256": "REPLACE_ME",
+      "notes": "Batchwise HV trajectories."
+    },
+    {
+      "name": "Generator contribution",
+      "path": "benchmark_data_export/generator_contribution_per_trial.csv",
+      "generated_by": "complete_analysis_pipeline.py",
+      "source_inputs": ["candidate source logs"],
+      "run_id": "paper_release",
+      "date": "2026-03-18",
+      "sha256": "REPLACE_ME",
+      "notes": "Per-trial generator source attribution."
+    },
+    {
+      "name": "Real-world per-dataset pairwise HV p-values",
+      "path": "Plotting/realworld_posthoc_validation/realworld_posthoc_per_dataset_pairwise_hv.csv",
+      "generated_by": "Plotting/realworld_posthoc_validation/compute_realworld_per_dataset_pvalues.py",
+      "source_inputs": ["Plotting/realworld_posthoc_validation/realworld_posthoc_realworld_final_hv.csv"],
+      "run_id": "paper_release",
+      "date": "2026-03-18",
+      "sha256": "REPLACE_ME",
+      "notes": "Wilcoxon + Holm adjusted p-values for HV."
+    },
+    {
+      "name": "Real-world per-dataset pairwise IGD p-values",
+      "path": "Plotting/realworld_posthoc_validation/realworld_posthoc_per_dataset_pairwise_igd.csv",
+      "generated_by": "Plotting/realworld_posthoc_validation/compute_realworld_per_dataset_pvalues.py",
+      "source_inputs": ["Plotting/realworld_posthoc_validation/realworld_posthoc_realworld_final_igd.csv"],
+      "run_id": "paper_release",
+      "date": "2026-03-18",
+      "sha256": "REPLACE_ME",
+      "notes": "Wilcoxon + Holm adjusted p-values for IGD."
+    }
+  ]
+}

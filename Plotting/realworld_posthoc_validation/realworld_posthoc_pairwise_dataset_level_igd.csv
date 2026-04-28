@@ -1,0 +1,4 @@
+metric,algo_a,algo_b,n_blocks,mean_a,mean_b,median_diff_a_minus_b,wilcoxon_W,p_value,rank_biserial_corr,favored_by_mean,p_holm,significant_0_05
+IGD_dataset_level,Novelty Aware EGBO,EGBO,4,1.405932271201666,1.569728165077541,-0.053479278385720745,0.0,0.125,-1.0,Novelty Aware EGBO,0.375,False
+IGD_dataset_level,Novelty Aware EGBO,qNEHVI,4,1.405932271201666,1.8293146424143947,-0.021713724624936342,2.0,0.375,-0.6,Novelty Aware EGBO,0.75,False
+IGD_dataset_level,EGBO,qNEHVI,4,1.569728165077541,1.8293146424143947,0.012499532833468552,5.0,1.0,0.0,EGBO,1.0,False

@@ -1,0 +1,7 @@
+metric,algorithm,avg_rank,notes
+IGD_dataset_level,Novelty Aware EGBO,1.25,
+IGD_dataset_level,EGBO,2.5,
+IGD_dataset_level,qNEHVI,2.25,
+IGD_dataset_level,Novelty Aware EGBO vs EGBO,1.25,abs rank diff; >CD? False
+IGD_dataset_level,Novelty Aware EGBO vs qNEHVI,1.0,abs rank diff; >CD? False
+IGD_dataset_level,EGBO vs qNEHVI,0.25,abs rank diff; >CD? False

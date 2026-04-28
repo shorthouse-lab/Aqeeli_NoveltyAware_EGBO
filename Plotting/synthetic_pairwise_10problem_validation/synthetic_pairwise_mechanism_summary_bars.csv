@@ -1,0 +1,19 @@
+algorithm,value_mean,value_std,metric
+EGBO_Novelty_v1,0.79,0.2768874620972693,"Boundary coverage
+(final Pareto) ↑"
+EGBO,0.735,0.30529833066538503,"Boundary coverage
+(final Pareto) ↑"
+Traditional_NEHVI,0.6958762886597938,0.3108850021086294,"Boundary coverage
+(final Pareto) ↑"
+EGBO_Novelty_v1,0.43981367599354665,0.1694511249850599,"Front spread
+(over batches) ↑"
+EGBO,0.4161234737718059,0.1816940640928807,"Front spread
+(over batches) ↑"
+Traditional_NEHVI,0.5680138322615155,0.20647870875929247,"Front spread
+(over batches) ↑"
+EGBO_Novelty_v1,0.14595572916666666,0.041344879877728065,"Exploration score
+(1 - acq percentile) ↑"
+EGBO,0.056250000000000015,0.0,"Exploration score
+(1 - acq percentile) ↑"
+Traditional_NEHVI,1.0,0.0,"Exploration score
+(1 - acq percentile) ↑"

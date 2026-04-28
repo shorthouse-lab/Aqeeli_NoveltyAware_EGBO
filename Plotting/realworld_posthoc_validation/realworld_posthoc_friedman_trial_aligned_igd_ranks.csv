@@ -1,0 +1,7 @@
+metric,algorithm,avg_rank,notes
+IGD_trial_aligned,Novelty Aware EGBO,1.575,
+IGD_trial_aligned,EGBO,2.3125,
+IGD_trial_aligned,qNEHVI,2.1125,
+IGD_trial_aligned,Novelty Aware EGBO vs EGBO,0.7375,abs rank diff; >CD? True
+IGD_trial_aligned,Novelty Aware EGBO vs qNEHVI,0.5374999999999999,abs rank diff; >CD? True
+IGD_trial_aligned,EGBO vs qNEHVI,0.20000000000000018,abs rank diff; >CD? False
