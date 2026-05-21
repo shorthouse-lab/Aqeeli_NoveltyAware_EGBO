@@ -1,4 +1,7 @@
 # Aqeeli et al. Novelty Aware EGBO
+
+[![DOI](https://zenodo.org/badge/1187406418.svg)](https://doi.org/10.5281/zenodo.20321978)
+
 Github repository for code included in Aqeeli et al. Novelty-Aware Evolutionary Bayesian Optimisation for Multi-Objective Discovery Science
 
 his release bundle contains the **code and aggregate outputs** needed to reproduce the manuscript-level comparisons for:
